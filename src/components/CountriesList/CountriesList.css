@@ -1,0 +1,19 @@
+.list-item{
+    --bs-list-group-item-padding-y: 0.5rem;
+    font-size: calc(var(--index)*1.2);
+}
+
+.list-item.list-group-item-action {
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.error-txt{
+    font-size: calc(var(--index)*2);
+    text-align: center;
+}

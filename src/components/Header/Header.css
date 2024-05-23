@@ -1,0 +1,11 @@
+.header_container{
+    background-color: #5BA199;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header_logo{
+    font-size: calc(var(--index)*2);
+    padding: 20px 0;
+    text-align: center;
+}

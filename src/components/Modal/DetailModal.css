@@ -1,0 +1,16 @@
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal-container h4 {
+    margin-bottom: 20px;
+}
+
+
+
+.flag-img{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
