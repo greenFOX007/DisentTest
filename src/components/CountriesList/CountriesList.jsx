@@ -60,7 +60,9 @@ export const CountriesList = () => {
             })}
         </ListGroup>
       )}
-      {!countriesData && <div className="error-txt">The list is empty</div>}
+      {!countriesData && !isError && (
+        <div className="error-txt">The list is empty</div>
+      )}
       {isError && (
         <div className="error-txt">Oops, something went wrong...</div>
       )}
